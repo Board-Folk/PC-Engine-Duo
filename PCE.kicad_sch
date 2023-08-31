@@ -1,0 +1,188 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c1c718c6-a427-431e-a18b-e46f94ae8e09)
+
+  (paper "A3")
+
+  (title_block
+    (title "Index")
+    (date "2023-08-17")
+    (rev "1.0")
+    (comment 1 "Differences reverse engineered from original PWD-623A board")
+    (comment 2 "Adapted from existing TurboGrafx-16 schematics by Cosam")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "CD-ROM" (at 46.99 147.32 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 0813043c-6f61-4729-9681-f3aa102dadac)
+  )
+  (text "PC Engine\nbase system" (at 45.72 77.47 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 3dd0c454-a0e3-40cf-b9ba-eb6c3f23fd65)
+  )
+  (text "Integrated\nIFU equivalent" (at 45.72 113.03 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid a8c8df78-08d2-414b-a94e-75c327311315)
+  )
+
+  (sheet (at 76.2 66.04) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1d91d06a-381a-4a70-bfc1-2abf4d159a91)
+    (property "Sheetname" "CPU" (at 76.2 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cpu.kicad_sch" (at 76.2 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCE"
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09" (page "1"))
+      )
+    )
+  )
+
+  (sheet (at 203.2 66.04) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 99dc3156-542f-4db3-aeb5-d38a9dd48b1b)
+    (property "Sheetname" "Connectors" (at 203.2 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectors.kicad_sch" (at 203.2 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCE"
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 171.45 66.04) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ba362b1f-3cb7-4861-9385-2b05dca17551)
+    (property "Sheetname" "Power" (at 171.45 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 171.45 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCE"
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 140.97) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bb2f9872-1813-43e0-bcfc-5c5426bf43ce)
+    (property "Sheetname" "CD-ROM Mech Interface" (at 76.2 140.2584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cd_rom_mech.kicad_sch" (at 76.2 159.3346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCE"
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 107.95 102.87) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bec74ead-fbfd-4adb-94cc-b39bf0f8c080)
+    (property "Sheetname" "Interface_Memory" (at 107.95 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "interface_memory.kicad_sch" (at 107.95 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCE"
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 139.7 66.04) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c78d7e8a-3e65-46f4-91f4-96eb31925bea)
+    (property "Sheetname" "Video" (at 139.7 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "video.kicad_sch" (at 139.7 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCE"
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 107.95 66.04) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ed9120da-14d8-40be-9026-fb246d72bf2f)
+    (property "Sheetname" "VDC" (at 107.95 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "vdc.kicad_sch" (at 107.95 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCE"
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 107.95 140.97) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f0c71640-5bc9-4afc-b5c0-657815871e51)
+    (property "Sheetname" "CD -ROM Control" (at 107.95 140.2584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cd_rom_control.kicad_sch" (at 107.95 159.3346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCE"
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 102.87) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f2e7b294-149a-4ec9-8398-41569f37f2ee)
+    (property "Sheetname" "Interface" (at 76.2 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "interface.kicad_sch" (at 76.2 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCE"
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "10"))
+  )
+)
