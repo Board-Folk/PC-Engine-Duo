@@ -17,8 +17,6 @@
     (stroke (width 0.2) (type default)) (layer "B.SilkS") (tstamp aad94319-dc67-47a7-9a52-f7a214b949f3))
   (fp_line (start 5.616401 0) (end -5.583599 0)
     (stroke (width 0.2) (type default)) (layer "B.SilkS") (tstamp 8e21820c-e0e4-4801-a3ad-f23d49f01ce1))
-  (fp_circle (center -7.5 0) (end -9.4 0)
-    (stroke (width 0.2) (type default)) (fill none) (layer "B.SilkS") (tstamp a65db5a7-f6d4-4a91-83db-3bf2681799a2))
   (fp_poly
     (pts
       (xy -1.45 0)
@@ -29,9 +27,9 @@
     (stroke (width 0.1) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 34f2c11b-abc2-4ac1-815e-cec5394a457d))
   (fp_line (start -1.466401 1) (end -1.466401 -1)
     (stroke (width 0.2) (type default)) (layer "F.SilkS") (tstamp 6b118188-6a55-4de3-a591-acb88cf59bf7))
-  (fp_line (start 5.6 0) (end -5.6 0)
+  (fp_line (start 8 0) (end -8.1 0)
     (stroke (width 0.2) (type default)) (layer "F.SilkS") (tstamp 5faa71a6-9446-4110-b21d-0da9ae60560e))
-  (fp_circle (center -7.5 0) (end -5.6 0)
+  (fp_circle (center -10 0) (end -8.1 0)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp de9c6fae-f4cb-405f-ba62-43e8e6f993aa))
   (fp_poly
     (pts
@@ -41,6 +39,6 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp dc4ddbba-6ab4-49e7-82fc-edcbcca87ae1))
-  (pad "1" thru_hole circle (at -7.5 0) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 9d796edd-4b4f-4082-9383-09ec542bab61))
-  (pad "2" thru_hole circle (at 7.5 0) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp b7bd4a21-2339-4461-8bdb-4e49aeee7118))
+  (pad "1" thru_hole circle (at -10 0) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 9d796edd-4b4f-4082-9383-09ec542bab61))
+  (pad "2" thru_hole circle (at 10 0) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp b7bd4a21-2339-4461-8bdb-4e49aeee7118))
 )
