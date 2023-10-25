@@ -4,7 +4,7 @@
   (tags "CP Radial series Radial pin pitch 5.00mm  diameter 8mm Electrolytic Capacitor")
   (attr through_hole)
   (fp_text reference "REF**" (at -2.42 -5.05) (layer "F.SilkS")
-      (effects (font (size 1.25 1.4) (thickness 0.2)))
+      (effects (font (size 1 1) (thickness 0.2)))
     (tstamp 16ab82f1-e118-4ada-a56b-10246ae303e4)
   )
   (fp_text value "Elec_P5.00mm" (at 2.5 5.25) (layer "F.Fab")
