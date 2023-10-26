@@ -3140,10 +3140,10 @@
   (symbol (lib_id "Device:R") (at 115.57 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 085ef276-7af9-4cd9-be32-323fe0d32a6b)
-    (property "Reference" "R152" (at 118.11 198.755 0)
+    (property "Reference" "Rx152" (at 118.11 198.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7K" (at 118.11 201.295 0)
+    (property "Value" "4.7K" (at 118.11 200.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "A-PCENGINE:SMD_0805_Narrow" (at 113.792 199.39 90)
@@ -3157,7 +3157,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/1d91d06a-381a-4a70-bfc1-2abf4d159a91"
-          (reference "R152") (unit 1)
+          (reference "Rx152") (unit 1)
         )
       )
     )

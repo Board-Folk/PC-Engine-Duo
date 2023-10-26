@@ -2771,7 +2771,7 @@
           (reference "R104") (unit 1)
         )
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/c78d7e8a-3e65-46f4-91f4-96eb31925bea"
-          (reference "R162") (unit 1)
+          (reference "Rx162") (unit 1)
         )
       )
     )
@@ -2829,7 +2829,7 @@
           (reference "C107") (unit 1)
         )
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/c78d7e8a-3e65-46f4-91f4-96eb31925bea"
-          (reference "C152") (unit 1)
+          (reference "Cx152") (unit 1)
         )
       )
     )
@@ -3455,7 +3455,7 @@
           (reference "R104") (unit 1)
         )
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/c78d7e8a-3e65-46f4-91f4-96eb31925bea"
-          (reference "R160") (unit 1)
+          (reference "Rx160") (unit 1)
         )
       )
     )
@@ -3609,7 +3609,7 @@
           (reference "C151") (unit 1)
         )
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/c78d7e8a-3e65-46f4-91f4-96eb31925bea"
-          (reference "C151") (unit 1)
+          (reference "Cx151") (unit 1)
         )
       )
     )
@@ -3861,7 +3861,7 @@
     (property "Value" "10uF 16V" (at 106.68 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_4x3" (at 102.87 139.3952 0)
+    (property "Footprint" "A-PCENGINE:CP_6x1.5mm" (at 102.87 139.3952 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 138.43 0)

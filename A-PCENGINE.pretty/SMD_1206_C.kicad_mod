@@ -4,7 +4,7 @@
   (tags "capacitor")
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.4 unlocked) (layer "F.SilkS")
-      (effects (font (size 1.25 1.4) (thickness 0.2)))
+      (effects (font (size 1 1) (thickness 0.2)))
     (tstamp 83cc328c-b7a6-47b2-9ffa-7ac49f4468d0)
   )
   (fp_text value "SMD_1206_C" (at 0 1.85) (layer "F.Fab")
