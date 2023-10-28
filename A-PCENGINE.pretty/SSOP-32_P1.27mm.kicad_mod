@@ -4,7 +4,7 @@
   (tags "SSOP SO")
   (attr smd)
   (fp_text reference "REF**" (at 0 -12.25) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 1 1) (thickness 0.2) bold))
     (tstamp d1c6653a-0c69-4a5b-ba19-e576b55c3283)
   )
   (fp_text value "SSOP-32_P1.27mm" (at 0 11.2) (layer "F.Fab")

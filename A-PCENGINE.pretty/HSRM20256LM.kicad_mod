@@ -4,7 +4,7 @@
   (tags "EQFP QFP")
   (attr smd)
   (fp_text reference "IC***" (at 0.05 -9.01) (layer "F.SilkS")
-      (effects (font (size 1.2 1.4) (thickness 0.2) bold))
+      (effects (font (size 1 1) (thickness 0.2) bold))
     (tstamp 8db70a49-a95f-4cb4-90b4-84133a029833)
   )
   (fp_text value "HSRM20256LM" (at 0.55 9.22) (layer "F.Fab")
