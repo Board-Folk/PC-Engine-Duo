@@ -2825,6 +2825,34 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 206.502 167.64 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2cac44b0-a9d8-45e6-b3ee-8a245250ae97)
+    (property "Reference" "TP101" (at 206.502 177.165 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "~" (at 208.407 172.212 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "A-PCENGINE:Test_Point_2mm_THT" (at 201.422 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 201.422 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 78107942-e69f-4f39-b8d2-eeab6a9539d4))
+    (instances
+      (project "PCE"
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/bb2f9872-1813-43e0-bcfc-5c5426bf43ce"
+          (reference "TP101") (unit 1)
+        )
+        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/ed9120da-14d8-40be-9026-fb246d72bf2f"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 276.86 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51fdebfb-9aa8-490b-9bb0-22edbf599d2a)
@@ -3245,34 +3273,6 @@
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/ed9120da-14d8-40be-9026-fb246d72bf2f"
           (reference "#PWR023") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 206.502 167.64 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cd9eb460-60cd-4b38-8a1e-2520ebb75fae)
-    (property "Reference" "TP1" (at 206.502 177.165 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "~" (at 208.407 172.212 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "A-PCENGINE:Test_Point_1.5mm_THT_NoSilk" (at 201.422 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 201.422 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9cdbdfa0-7423-4352-96ed-6631d15685d0))
-    (instances
-      (project "PCE"
-        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/bb2f9872-1813-43e0-bcfc-5c5426bf43ce"
-          (reference "TP1") (unit 1)
-        )
-        (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/ed9120da-14d8-40be-9026-fb246d72bf2f"
-          (reference "TP65") (unit 1)
         )
       )
     )
