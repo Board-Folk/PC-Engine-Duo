@@ -4555,7 +4555,7 @@
     (property "Reference" "R105" (at 116.078 38.354 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "?" (at 116.078 40.894 0)
+    (property "Value" "4.7K" (at 116.078 40.894 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "A-PCENGINE:SMD_0805_Narrow_Long" (at 115.316 39.624 90)
