@@ -7793,7 +7793,7 @@
     (property "Reference" "C113" (at 267.97 259.461 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "~" (at 267.97 262.001 0)
+    (property "Value" "0.047F 5.5V SUPERCAP" (at 267.97 262.001 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "A-PCENGINE:Elec_P5.00mm_D12mm_Pad3mm" (at 265.1252 264.795 0)
