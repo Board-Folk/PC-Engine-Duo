@@ -4,6 +4,13 @@
 
   (paper "A2")
 
+  (title_block
+    (date "2023-11-01")
+    (rev "1.0")
+    (comment 1 "Reverse engineered from original PWA-3285-A board by Cosam")
+    (comment 3 "WORK IN PROGRESS")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:RC4558" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 5.08 0)
