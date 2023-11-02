@@ -3349,7 +3349,7 @@
     (property "Reference" "C965" (at 129.54 202.565 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uF" (at 132.08 200.66 0)
+    (property "Value" "1uF" (at 130.81 205.105 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "A-PCENGINE:SMD_0805_Narrow" (at 129.2352 203.2 0)
