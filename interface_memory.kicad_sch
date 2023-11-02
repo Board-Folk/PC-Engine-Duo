@@ -7971,7 +7971,7 @@
     (property "Reference" "D501" (at 266.7 216.535 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "D" (at 264.16 216.535 0)
+    (property "Value" "AV 29" (at 264.16 216.535 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "A-PCENGINE:Transistor_SMD" (at 260.35 216.535 0)

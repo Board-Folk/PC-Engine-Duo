@@ -5162,7 +5162,7 @@
     (property "Reference" "Q304" (at 135.89 170.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "~" (at 135.255 172.085 0)
+    (property "Value" "N/P" (at 135.255 172.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "A-PCENGINE:Transistor_SMD_NoSilk" (at 135.255 168.275 0)
