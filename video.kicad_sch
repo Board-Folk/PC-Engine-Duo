@@ -5,11 +5,14 @@
   (paper "A3")
 
   (title_block
-    (title "PC Engine Video Encoding")
-    (date "2023-11-01")
-    (rev "1.0")
-    (comment 1 "Reverse engineered from original PWA-3285-A board by Cosam")
-    (comment 3 "WORK IN PROGRESS")
+    (title "PC Engine Duo Video Encoding")
+    (date "2023-11-03")
+    (rev "1.1")
+    (company "By Cosam")
+    (comment 1 "https://github.com/Board-Folk/PC-Engine-Duo")
+    (comment 2 "For contributions or corrections please visit:")
+    (comment 3 "Additional parts reverse engineered from original PWA-3285-A board.")
+    (comment 4 "Parts common to PC Engine adapted from TurboGrafx-16 schematics.")
   )
 
   (lib_symbols
