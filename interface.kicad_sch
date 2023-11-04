@@ -10180,7 +10180,7 @@
     (property "Reference" "C105" (at 297.815 48.895 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "? 1uF" (at 297.815 51.435 90)
+    (property "Value" "750pF" (at 297.815 51.435 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "A-PCENGINE:SMD_0805_Narrow" (at 297.18 47.3202 0)
