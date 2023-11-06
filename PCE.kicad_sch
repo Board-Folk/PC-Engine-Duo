@@ -7,11 +7,11 @@
   (title_block
     (title "Index")
     (date "2023-11-03")
-    (rev "1.1")
+    (rev "1.2")
     (company "By Cosam")
     (comment 1 "https://github.com/Board-Folk/PC-Engine-Duo")
     (comment 2 "For contributions or corrections please visit:")
-    (comment 3 "Additional parts reverse engineered from original PWA-3285-A board.")
+    (comment 3 "Additional parts reverse engineered from original PWA-3285-A 72932851 board.")
     (comment 4 "Parts common to PC Engine adapted from TurboGrafx-16 schematics.")
   )
 
@@ -47,8 +47,8 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 52a083c3-4ffe-40c4-8d00-d3c3c2a56a71)
   )
-  (text "- These schematics are a work in progress. Use them at your own risk. Rely on them at your peril.\n- Many signals have not been identified and/or have made-up names.\n- Ceramic capacitor values are based on measurements and may be inaccurate.\n- There are probably more errors we don't know about; please let us know if you find any."
-    (at 46.355 200.66 0)
+  (text "- These schematics are a work in progress. Use them at your own risk. Rely on them at your peril.\n- Many signals have not been identified and/or have made-up names.\n- Schematics are based on 72932851 specifically. Other revisions have some different parts.\n- Ceramic capacitor values are based on measurements and may be inaccurate.\n- There are probably more errors we don't know about; please let us know if you find any."
+    (at 46.355 202.565 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 5b8892ba-b1d5-4d8b-aa9e-c449120c201c)
   )

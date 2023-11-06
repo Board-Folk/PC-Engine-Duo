@@ -7,11 +7,11 @@
   (title_block
     (title "PC Engine Duo CD-ROM Control")
     (date "2023-11-03")
-    (rev "1.1")
+    (rev "1.2")
     (company "By Cosam")
     (comment 1 "https://github.com/Board-Folk/PC-Engine-Duo")
     (comment 2 "For contributions or corrections please visit:")
-    (comment 3 "Additional parts reverse engineered from original PWA-3285-A board.")
+    (comment 3 "Additional parts reverse engineered from original PWA-3285-A 72932851 board.")
     (comment 4 "Parts common to PC Engine adapted from TurboGrafx-16 schematics.")
   )
 
