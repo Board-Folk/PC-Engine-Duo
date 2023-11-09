@@ -6809,7 +6809,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 344.805 160.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e5049de-96b9-471e-83a0-d0887b81a9aa)
-    (property "Reference" "TP101" (at 344.805 169.545 90)
+    (property "Reference" "TP101" (at 344.805 171.45 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 346.71 164.592 0)
