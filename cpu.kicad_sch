@@ -6,7 +6,7 @@
 
   (title_block
     (title "PC Engine Duo CPU and RAM")
-    (date "2023-11-03")
+    (date "2023-11-10")
     (rev "1.2")
     (company "By Cosam")
     (comment 1 "https://github.com/Board-Folk/PC-Engine-Duo")
