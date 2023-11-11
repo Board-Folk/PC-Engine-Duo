@@ -24,13 +24,14 @@ entertaining feature requests for significant modifications.
 
 Minimum track widths, clearances and via sizes are within the standard
 offering of modern PCB fabricators. Gerber files are generated with the relevant
-options for [JLCPCB](https://jlcpcb.com/) and include their placeholder,
-so remember to select the "Specify location" option for this when ordering. If
-using another service you may wish to remove or replace this placeholder.
+options for both [JLCPCB](https://jlcpcb.com/) and [PCBWay](https://www.pcbway.com/).
+Placeholders for the order number are provided so remember to select
+the "Specify location" option for this when ordering. If using another service
+you may wish to remove or replace this placeholder.
 
-The design is for a 2-layer PCB with 1 oz copper. A leaded HASL finish is perfectly
-adequate and ensures compatibility with the original solder that will inevitably be
-left behind on salvaged parts.
+The design is verified to work as a 2-layer PCB with 1 oz copper. A leaded HASL
+finish is perfectly adequate and ensures compatibility with the original solder
+that will ineveitably be left behind on salvaged parts.
 
 
 ## Bill of Materials
