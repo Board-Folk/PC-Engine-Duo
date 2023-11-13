@@ -5327,7 +5327,7 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 10480308-6b3f-4c69-8ae5-4eb8445d5074)
   )
-  (text "10K + 160K\nin parralel" (at 293.37 66.675 0)
+  (text "10K + 160K\nin parallel" (at 293.37 66.675 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 231abb0a-09ee-4f85-9215-01da1a687aea)
   )

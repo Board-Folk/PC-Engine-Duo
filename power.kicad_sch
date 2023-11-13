@@ -2801,9 +2801,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4708d776-5e7d-4783-8c67-d2b1f2934d03)
   )
-  (text "Regulator IC302 provides additional power rails\nfor the IFU, its memory and CD-ROM circuitry.\nAdditional net names are chosen at random and\nwhilst grounds are routed separately, no\ndistinction is made in these schamtics as yet."
+  (text "Regulator IC302 provides additional power rails\nfor the IFU, its memory and CD-ROM circuitry.\nAdditional net names are chosen at random and\nwhilst grounds are routed separately, no\ndistinction is made in these schematics as yet."
     (at 241.3 117.475 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (size 1.27 1.27)) (justify left bottom) (href "#4"))
     (uuid 5a5bf263-afac-49f8-afb8-f7c731a8a367)
   )
   (text "Approx.\n  7V" (at 181.61 111.76 0)
